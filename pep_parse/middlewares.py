@@ -58,8 +58,6 @@ class PepParseDownloaderMiddleware:
         return s
 
     def process_request(self, request, spider):
-        # Called for each request that goes through the downloader
-        # middleware.
 
         # Must either:
         # - return None: continue processing this request
